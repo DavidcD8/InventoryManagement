@@ -1,8 +1,6 @@
  
-import java.util.*;
- 
- 
-import java.util.Scanner;
+ import java.util.*;
+ import java.util.Scanner;
 
 public class ItemsList {
 	boolean loop = false;
