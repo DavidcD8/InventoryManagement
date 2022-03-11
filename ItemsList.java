@@ -49,8 +49,7 @@ public class ItemsList {
 
 	char exit = 'y';
 	boolean exitloop = false;
-	int x = 1;
-
+	
 	public boolean searchItem() {
 
 				
@@ -84,9 +83,7 @@ public class ItemsList {
 						System.out.println(searchinput + " found in Storage1");
 					}
 				}
-				x = 2;
-				break;
-
+				
 			case 2:
 				for (int s = 0; s < storage2.getStorage2().length(); s++) {
 					if (storage2.getStorage2().startsWith(searchinput))
@@ -95,9 +92,7 @@ public class ItemsList {
 						System.out.println(searchinput + " found in Storage2");
 					}
 				}
-				x = 2;
-
-				break;
+				
 
 			default:
 				System.out.println("Item not found ");
