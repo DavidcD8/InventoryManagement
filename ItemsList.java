@@ -43,8 +43,7 @@ public class ItemsList {
 
 	}
 
-	char exit = 'y';
-	boolean exitloop = false;
+	char exit = 'y'; 
 	
 	public boolean searchItem() {
 
