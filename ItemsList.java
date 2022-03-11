@@ -12,10 +12,7 @@ public class ItemsList {
 	int storageinput;
 	String searchinput;
 	int storageSearch;
-//	String[] item = new String[10];
-	// List<String> itemType = new ArrayList<String>();
-	// List<ItemsList> found[] = new ArrayList[1];
-	// Stores items in the list.
+ 
 
 	Storage storage1 = new Storage();
 	Storage storage2 = new Storage();
